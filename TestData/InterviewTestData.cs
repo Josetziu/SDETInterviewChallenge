@@ -27,7 +27,8 @@ namespace SDETInterviewChallenge.TestData
                 }, ConfigurationManager.AppSettings.Get("menuToNavigate"),
                 ConfigurationManager.AppSettings.Get("menuToPrint"),
                 ConfigurationManager.AppSettings.Get("searchValue"),
-                Convert.ToInt32(ConfigurationManager.AppSettings.Get("elementsToPrint")))
+                Convert.ToInt32(ConfigurationManager.AppSettings.Get("elementsToPrint")),
+                Convert.ToInt32(ConfigurationManager.AppSettings.Get("numberOfItems")))
                     .SetName("Default Validations");
             }
         }

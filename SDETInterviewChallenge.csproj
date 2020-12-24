@@ -61,14 +61,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PageObjectModels\IPageNavigation.cs" />
-    <Compile Include="PageObjectModels\LandingPage.cs" />
+    <Compile Include="PageObjectModels\PageUtilities.cs" />
+    <Compile Include="PageObjectModels\HomePage.cs" />
+    <Compile Include="PageObjectModels\ProductDetailsPage.cs" />
+    <Compile Include="PageObjectModels\SearchResultsPage.cs" />
+    <Compile Include="PageObjectModels\ShoppingCartPage.cs" />
     <Compile Include="PageObjectModels\WindowsPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestCases\InterviewTests.cs" />
     <Compile Include="TestData\InterviewTestData.cs" />
     <Compile Include="TestFixture.cs" />
+    <Compile Include="Utilities\CurrencyConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
